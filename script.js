@@ -1,0 +1,1 @@
+console.log('Psalm 51 Spiral Explorer loaded.');
