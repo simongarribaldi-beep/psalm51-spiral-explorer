@@ -1,1 +1,10 @@
-body{background:#0b1020;color:#e9e5ff}
+body{margin:0;font-family:sans-serif;}
+.theme-night{background:#0b1020;color:#e9e5ff;}
+.theme-parchment{background:#f7f1e5;color:#1b1b1b;}
+header{padding:.8rem;display:flex;justify-content:space-between;align-items:center;}
+h1{margin:0;font-size:1.4rem;}
+.controls select,.controls button{margin:0 .2rem;}
+#canvasWrap{position:relative;min-height:400px;}
+.tooltip{position:absolute;background:#000;color:#fff;padding:.2rem .4rem;border-radius:6px;font-size:.9rem;display:none;}
+aside{padding:.5rem;font-size:.9rem;}
+footer{padding:.5rem;text-align:center;font-size:.8rem;opacity:.7;}
