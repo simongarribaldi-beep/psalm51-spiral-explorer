@@ -1,1 +1,57 @@
-<!DOCTYPE html><html><head><meta charset='UTF-8'><title>Psalm 51</title></head><body>Missing index; please re-run.</body></html>
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Psalm 51 — Spiritual DNA Spiral Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+</head>
+<body class="theme-night">
+  <header>
+    <div class="title">
+      <h1>תהילים נ״א — Psalm 51</h1>
+      <div class="subtitle">Spiritual DNA • Golden Double Spiral</div>
+    </div>
+    <div class="controls">
+      <label>
+        Verse:
+        <select id="verseSelect"></select>
+      </label>
+      <button id="playBtn">▶︎ Auto-Scroll</button>
+      <button id="stopBtn" disabled>■ Stop</button>
+      <button id="themeBtn">🌗 Theme</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="canvasWrap">
+      <div id="tooltip" class="tooltip"></div>
+    </div>
+    <aside id="infoPanel">
+      <div class="panel-section">
+        <h3>Word</h3>
+        <div id="wordDisplay">—</div>
+      </div>
+      <div class="panel-section">
+        <h3>Gematria</h3>
+        <div id="gematriaDisplay">—</div>
+      </div>
+      <div class="panel-section">
+        <h3>Verse</h3>
+        <div id="verseText">—</div>
+      </div>
+      <div class="panel-section small">
+        <label><input type="checkbox" id="hoverAudio" checked /> Hover audio</label>
+        <label><input type="checkbox" id="showSpiralGuides" checked /> Show spiral guides</label>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <div>Design: Glowing DNA • Audio: Browser TTS (he-IL) • Layout: Golden ratio φ</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
